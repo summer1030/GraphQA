@@ -54,6 +54,18 @@ The processed data can be downloaded [here](https://drive.google.com/file/d/1_0T
 
 ## Build graphs
 
+`GraphBuildingByClassInitialize.py:` Build the constituency graphs. The virtual nodes are initialized by specific categories. For instance, all NP nodes use the same initialized, and all VP nodes use the same initialization.
+
+`GraphBuildingByEmbedInitialize.py:` Build the constituency graphs. Each virtual node is initialized by content embeddings of its connected nodes at lower level.
+ 
+`GraphBuildingByEmbedInitializeReduced.py:` Build the constituency graphs with reduced nodes. Remove all internal nodes that have a single child, or remove all part-of-sppech nodes in the constituency graph. Each virtual node is initialized by content embeddings of its connected nodes at lower level.
+
+Run the scripte by,
 ```
-Graph
+python GraphBuildingByClassInitialize.py --data_split dev\
+                                         --model_name_or_path bert-case-cased\
+                                         --save_path ./data/squad_files/constituency_graphs
 ```
+
+## Fine-tune models
+
