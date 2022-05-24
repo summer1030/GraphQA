@@ -1,3 +1,12 @@
+
+"""
+*******************************************************************
+
+Filter the original dataset to generate a subset for our graph task.
+
+*******************************************************************
+"""
+
 import json, os
 import pickle
 from tqdm import tqdm
