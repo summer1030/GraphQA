@@ -2,7 +2,7 @@
 
 The development environment can be checked in `requirements.txt`.
 
-## Datasets
+## Process data
 
 Use the [SQuAD v1.1](https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/) dataset.
 
@@ -52,7 +52,7 @@ The intermediate files can be downloaded [here](https://drive.google.com/file/d/
 The processed data can be downloaded [here](https://drive.google.com/file/d/1_0TfSoGiRDpxgyVZNb0izMTicFAVDAuZ/view?usp=sharing). Save all to the `./data/` directory.
 
 
-## Building the graph
+## Build graphs
 
 ```
 Graph
