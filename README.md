@@ -45,9 +45,12 @@ python FilterDataset.py \
 Totally, there are 42584 samples after filtering.
 We split 34893 question-answer pairs from 360 documents for training, 
 and 7691 question-answer pairs from 82 documents for developing.
-
-The processed data can be download [here]()
 ```
+
+The intermediate files can be downloaded [here](https://drive.google.com/file/d/1kD6XOQz8uzMkH_leBnasihX5V04tb4jm/view?usp=sharing). Save all to the `./utils/` directory.
+
+The processed data can be downloaded [here](https://drive.google.com/file/d/1_0TfSoGiRDpxgyVZNb0izMTicFAVDAuZ/view?usp=sharing). Save all to the `./data/` directory.
+
 
 ## Building the graph
 
