@@ -2,8 +2,7 @@
 """
 *******************************************************************
 
-Build the constituency graphs. The virtual nodes are initialized by specific categories.
-For instance, all NP nodes use the same initialized, and all VP nodes use the same initialization.
+Check whether the answer can be a node in the constituency graph.
 
 *******************************************************************
 """
